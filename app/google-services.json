@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "797695287574",
+    "firebase_url": "https://school-library-project-default-rtdb.firebaseio.com",
+    "project_id": "school-library-project",
+    "storage_bucket": "school-library-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797695287574:android:5f279b4792d7633a6c3037",
+        "android_client_info": {
+          "package_name": "com.project.schoollibrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "797695287574-0qm8qn8js2gvea94u6b3ii68hcn8ecke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfHuMqWDEVVKfouES_CqQATyo_wvyC5EE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "797695287574-0qm8qn8js2gvea94u6b3ii68hcn8ecke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

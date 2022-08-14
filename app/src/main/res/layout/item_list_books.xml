@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/iv_itemBook_coverBook"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_book_24" />
+
+    <TextView
+        android:id="@+id/tv_itemBook_titleBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Title"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/iv_itemBook_coverBook"
+        app:layout_constraintTop_toTopOf="@id/iv_itemBook_coverBook" />
+
+    <TextView
+        android:id="@+id/tv_itemBook_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Author"
+        app:layout_constraintStart_toStartOf="@id/tv_itemBook_titleBook"
+        app:layout_constraintTop_toBottomOf="@id/tv_itemBook_titleBook" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available :"
+        app:layout_constraintBottom_toBottomOf="@id/iv_itemBook_coverBook"
+        app:layout_constraintStart_toStartOf="@id/tv_itemBook_author" />
+
+    <TextView
+        android:id="@+id/tv_itemBook_available"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:text="0"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView6"
+        app:layout_constraintStart_toEndOf="@+id/textView6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

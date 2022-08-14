@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="@color/japaneseIndigo"
+    app:cardElevation="5dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/tv_itemBorrow_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Name"
+            android:textColor="@color/antiFlashWhite"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_bookBorrow_bookCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Book Code"
+            android:textColor="@color/antiFlashWhite"
+            app:layout_constraintStart_toStartOf="@+id/tv_itemBorrow_title"
+            app:layout_constraintTop_toBottomOf="@+id/tv_itemBorrow_title" />
+
+        <TextView
+            android:id="@+id/tv_itemBorrow_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Title"
+            android:textColor="@color/antiFlashWhite"
+            app:layout_constraintStart_toStartOf="@+id/tv_itemBorrow_name"
+            app:layout_constraintTop_toBottomOf="@+id/tv_itemBorrow_name" />
+
+        <TextView
+            android:id="@+id/tv_bookBorrow_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Date"
+            android:textColor="@color/antiFlashWhite"
+            app:layout_constraintStart_toStartOf="@+id/tv_bookBorrow_bookCode"
+            app:layout_constraintTop_toBottomOf="@+id/tv_bookBorrow_bookCode" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

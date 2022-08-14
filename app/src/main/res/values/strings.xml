@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">School Library</string>
+    <string name="pt_dashboard">Books</string>
+    <string name="pt_dashboard2">Edit Books</string>
+    <string name="pt_dashboard3">Add Books</string>
+    <string name="pt_dashboard4">Admin List</string>
+    <string name="pt_dashboard5">Add Book Borrow</string>
+    <string name="pt_dashboard6">Book Borrow</string>
+    <string name="pt_dashboard7">Anggota</string>
+    <string name="text_deskripsi">Through the story of one family--his family--Alex Haley unforgettably brings to life the monumental two-century drama of Kunta Kinte and the six generations who came after him: slaves and freedmen, farmers and blacksmiths, lumber mill workmen and Pullman porters, lawyers and architects...and one author. A national and international phenomenon at the time of its original publication, Roots continues to enthrall readers with its masterful narrative drive and exceptional emotional power, speaking to us all with an undiminished resonance and relevance.</string>
+</resources>
